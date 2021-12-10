@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>REGISTRATE</title>
+  </head>
+   <body style="background: url('carpeta imag/FONDO1111.jpg') ;
+     background-size: cover;
+     background-attachment: fixed;
+      font-size: 1.2rem;
+     min-height: 100%;
+     ">
+     <!--------------------------------------header---------------------------------------------------------->
+     <header>
+          <div class="menu"></div>
+              <nav class="navbar navbar-expand-lg navbar-light bg-success">
+                  <div class="container-fluid">
+                      <a class="navbar-brand text-white " href="#">BIO + MARKET</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                 <a class="nav-link text-white" href="index.html">INICO</a>
+                               </li>
+                               <li class="nav-item">
+                                 <a class="nav-link text-white" href="nosotros.html">NOSOTROS</a>
+                               </li>
+                               <li class="nav-item">
+                                 <a class="nav-link text-white" href="categorias.html">CATEGORIA</a>
+                               </li>
+                               <li class="nav-item">
+                                  <a class="nav-link text-white" href="promociones.html">PROMOCIONES</a>
+                              </li>
+                               <li class="nav-item">
+                                  <a class="nav-link text-white" href="recomendaciones.html">RECOMENDACIONES</a>
+                               </li>
+                               <li class="nav-item">
+                                 <a class="nav-link text-white" href="registrate.html">REGISTRATE</a>
+                              </li>
+                           </ul>
+                          <form class="d-flex">
+                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                           </form>
+                     </div>
+                  </div>
+              </nav>
+           </div>
+       </header>  
+  
+      <!----------------------------------main--------------------------------------------------------------------->
+      <main>
+          <section>
+              <div class="contenedor">
+                 <div class="row">   
+                   <div class="contregistro">
+                      <h1 class="titulo__1" >REGISTRATE</h1>
+                      <form action="">
+                         <fieldset>
+                            <legend>CLIENTE</legend>
+                             <label for="Nombre">Nombre:</label>
+                             <input 
+                             type= "texto"
+                             name="Nombre"
+                             id="Nombre"
+                             placeholder="escriba aqui su nombre"
+                             />
+                             <br />
+                            <label for="Apellido">Apellido:</label>
+                             <input 
+                             type="text" 
+                             name="Apellido" 
+                             id="Apellido"
+                             placeholder="escriba aqui su nombre"
+                             />
+                             <br />
+                             <label for="Direccion">Direccion:</label>
+                             <input 
+                             type="text"
+                             name="Direccion" 
+                             id="Direccion"
+                             placeholder="escriba aqui su nombre"
+                             />
+                             <br />
+                             <label for="DNI">DNI:</label>
+                             <input 
+                             type="text"
+                             name="DNI" 
+                             id="DNI"
+                             placeholder="escriba aqui su nombre"
+                             />
+                             <br />
+                             <label for="edad">EDAD:</label>
+                             <input 
+                             type="text"
+                             name="edad" 
+                             id="edad"
+                             placeholder="escriba aqui su nombre"
+                             />
+                             <br />
+                             <label for="Telefono">Telefono:</label>
+                             <input 
+                             type="text"
+                             name="Telefono" 
+                             id="Telefono"
+                             placeholder="escriba aqui su nombre"
+                             />
+                             <br />
+                             <h4>SEXSO<h4>
+                             <div>hombre</div>
+                             <input type="radio" name="sexo" value="hombe"/>
+                             <div>mujer</div>
+                             <input type="radio" name="sexo" value="mujer"/> 
+                            <br />
+                             <h4>TIPO DE PRODUCTOS QUE COMPRAS<h4>
+                                <div>tradicional</div>
+                                   <input type="radio" name="PEFERENCIA DE COMPRA" value="tienda fisica"/>
+                                   <div>organicos</div>
+                                <input type="radio" name="PEFERENCIA DE COMPRA" value="Tienda virtual"/>
+                            <br />
+                             <h4>PEFERENCIA DE COMPRA<h4>
+                               <div>tienda fisica</div>
+                                <input type="radio" name="EFERENCIA DE COMPRA" value="hombe"/>
+                                <div>tienda virtual</div>
+                                <input type="radio" name="EFERENCIA DE COMPRA" value="mujer"/>
+                                <div>Acepta los terminos</div>
+                                <input type="checkbox" name="aceptar" value="1"/>
+                            <br />
+                             <h4>FRECUENCIA DE COMPRA <h4>
+                             <select name="promociones" id="promociones">
+                                <option valuo="siempre">simpre</option>
+                                 <option valuo="una a la semana"> una vez ala semana</option>
+                                 <option valuo="cada 15 dias">cada 15 dias</option>>
+                                  <option valuo=" una vez al mes ">una vez al mes</option>>
+                             </select>
+                             <br/>
+                             <h4>RECIBE PROMOCIONES</h4>
+                             <select name="promociones" id="promociones">
+                                  <option valuo="siempre">simpre</option>
+                                  <option valuo="una a la semana"> una vez ala semana</option>
+                                  <option valuo="cada 15 dias">cada 15 dias</option>>
+                                  <option valuo=" una vez al mes ">una vez al mes</option>>
+                             </select>
+                            <br />
+                            <h4>DEJA TU COMENTARIO </h4>
+                             <label for="mensaje"></label>
+                             <textarea name="mensaje" id="mensaje"clos="10" rows="20"></textarea>
+                             <br />
+                             <input type="submit" value="enviar" />
+                             <input type="reset" value="limpiar formulario" />
+                             <br />
+                         </fieldset>
+                      </form> 
+                   </div>  
+                </div>
+            </div>
+         </section>
+       </main>
+  
+       <!----------------------------------footer--------------------------------------------------------------------->
+        <footer class="footer" >
+           <div class="footer-sn  text-dark  bg-success">
+              <div class="container">
+                <div class="row py-1 text-center text-dark" >
+                   <div class="col-md-12 intros">
+                      <h5> CONTACTANOS</h5>
+                   </div>
+                   <div class="col-md-12 intros">
+                     <img src="carpeta imag/M9.jpg" alt="Faccebok" /> 
+                     <img src="carpeta imag/M10.jpg" alt="Instagram" /> 
+                     <img src="carpeta imag/logoipsum-logo-25 (1).svg" alt="Logo" /> 
+                     <img src="carpeta imag/M11.jpg" alt="Whatsapp" />
+                     <img src="carpeta imag/M12.jpg" alt="Tiwitter" />
+                   </div>
+                </div>
+              </div>
+           </div>
+       </footer>
+       <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"
+       ></script> 
+    </body>
+</html>
+   
