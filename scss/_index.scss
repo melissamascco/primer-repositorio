@@ -47,13 +47,14 @@
 
   &_text {
     font-style: italic;
-    text-align: right;
+    text-align: center;
   }
   &_title {
     font-style: italic;
     text-align: center;
     color: black;
     color: $color-contenido;
+    font-weight: bold;
   }
   &_1 {
     background: white;

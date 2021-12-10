@@ -55,13 +55,14 @@
 }
 .card_text {
   font-style: italic;
-  text-align: right;
+  text-align: center;
 }
 .card_title {
   font-style: italic;
   text-align: center;
   color: black;
   color: black;
+  font-weight: bold;
 }
 .card_1 {
   background: white;
