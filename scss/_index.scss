@@ -86,8 +86,6 @@ body {
 .contregistro {
   width: 1000px;
   margin: 30px auto;
-  border: solid 3px rgb(33, 80, 6);
-  border-style: dotted;
 }
 
 @mixin caja($width, $height, $background) {
